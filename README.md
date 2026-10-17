@@ -47,3 +47,8 @@ These are separate calls even if all use the same inexpensive or Instant-style m
 Compare this protocol to an ordinary one-call answer on held-out tasks; measure task correctness, cost, and latency. Multiple candidates can share errors, and model judges can be wrong or favor fluency over accuracy. Ground-truth tests or external checks should override model preference when available.
 
 **Goal:** Improve answers without requiring access to hidden reasoning. **Not a guarantee:** Performance depends on candidate diversity and selection accuracy.
+
+## Technical background and evaluation
+
+- [Stanford CS336 Spring 2026: 18 lecture-by-lecture notes](notes/cs336-2026/README.md) — tokenization, training, systems, data, post-training, and evaluation, with each topic tied to this protocol. Includes the explicit source gap for one scheduled guest session.
+- [Test whether this protocol helps](notes/cs336-2026/consider-evaluation-design.md) — independent oracles, fixed-budget baselines, candidate correlation, judge bias, abstention, and fail-closed cases.
